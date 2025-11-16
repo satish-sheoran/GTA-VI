@@ -118,7 +118,7 @@ function App() {
           </defs>
           {/* this image will be used for masking, taaki jb VI text zoom ho to uske under ye img dikhe */}
           <image className='object-cover'
-            href="../src/assets/bg.png"
+            href="/bg.png"
             width="100%"
             height="100%"
             preserveAspectRatio="xMidYMid slice"
