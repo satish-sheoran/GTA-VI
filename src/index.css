@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('../src/assets/pricedown.otf');
+    src: url('/pricedown.otf');
 }
 
 @font-face {
     font-family: 'poppins';
-    src: url('../src/assets/Poppins-SemiBold.ttf');
+    src: url('/Poppins-SemiBold.ttf');
 }
 
 /* rotating border near scroll down text */
@@ -181,4 +181,5 @@
     #third {
         padding: 1.2px 0;
     }
+
 }
