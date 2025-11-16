@@ -60,10 +60,11 @@ const Footer = () => {
             </div>
 
             {/* ps5 photo */}
-            <img src="../src/assets/ps5.png" className='absolute  object-cover left-1/2 -translate-x-1/2 bottom-2.5 w-[31%] sm:w-[27%] md:w-[30%] lg:w-[20%] xl:w-[17%] 2xl:w-[18%]' alt="ps5" />
+            <img src="/ps5.png" className='absolute  object-cover left-1/2 -translate-x-1/2 bottom-2.5 w-[31%] sm:w-[27%] md:w-[30%] lg:w-[20%] xl:w-[17%] 2xl:w-[18%]' alt="ps5" />
 
         </div>
     )
 }
 
 export default Footer
+
