@@ -16,7 +16,7 @@ function MainTopBGImgCode() {
             <img id='bgImg' className='absolute z-1 object-cover bg-center top-0 left-0 w-full h-full scale-[1.1]  lg:h-screen lg:w-full lg:rotate-0'
                 src="/bg.png" alt="" />
 
-            <img id='character' className='absolute max-h-[72%] max-w-2/3 scale-[3] z-3 -bottom-[170%] left-1/2 -translate-x-1/2' src="/girlbg.png" alt="" />
+            <img id='character' className='absolute max-h-[72%] max-w-2/3 scale-[3] z-3 -bottom-[230%] left-1/2 -translate-x-1/2' src="/girlbg.png" alt="" />
 
             <MainText />
             <Footer />
@@ -25,4 +25,5 @@ function MainTopBGImgCode() {
 }
 
 export default MainTopBGImgCode
+
 
