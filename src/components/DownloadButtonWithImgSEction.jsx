@@ -27,7 +27,7 @@ const DownloadButtonWithImgSEction = () => {
                         trigger: item,
                         start: 'top 98%',
                         //onEnter onLeave onEnterBack onLeaveBack, it is used to revrse the animation and play everytime
-                        toggleActions: "play reverse play reverse"
+                        toggleActions: "play none none none"
                     }
                 })
         })
@@ -58,4 +58,5 @@ const DownloadButtonWithImgSEction = () => {
 }
 
 export default DownloadButtonWithImgSEction
+
 
