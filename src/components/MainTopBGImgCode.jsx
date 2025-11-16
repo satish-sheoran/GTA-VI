@@ -11,12 +11,12 @@ function MainTopBGImgCode() {
 
 
             <img id='skyImg' className='bg-center absolute z-0 left-0 object-cover top-0 w-full h-full scale-[1.1]  lg:h-screen lg:w-full lg:rotate-0'
-                src="../src/assets/sky.png" alt="" />
+                src="/sky.png" alt="" />
 
             <img id='bgImg' className='absolute z-1 object-cover bg-center top-0 left-0 w-full h-full scale-[1.1]  lg:h-screen lg:w-full lg:rotate-0'
-                src="../src/assets/bg.png" alt="" />
+                src="/bg.png" alt="" />
 
-            <img id='character' className='absolute max-h-[72%] max-w-2/3 scale-[3] z-3 -bottom-[170%] left-1/2 -translate-x-1/2' src="../src/assets/girlbg.png" alt="" />
+            <img id='character' className='absolute max-h-[72%] max-w-2/3 scale-[3] z-3 -bottom-[170%] left-1/2 -translate-x-1/2' src="/girlbg.png" alt="" />
 
             <MainText />
             <Footer />
@@ -25,3 +25,4 @@ function MainTopBGImgCode() {
 }
 
 export default MainTopBGImgCode
+
