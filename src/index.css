@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../src/assets/pricedown.otf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../src/assets/Poppins-SemiBold.ttf');
+}
+
+/* rotating border near scroll down text */
+#rotatingBorder {
+    animation-duration: 1.34s;
+}
+
+
+#first {
+    /* scale from left edge */
+    transform-origin: left;
+    width: 18px;
+    animation: wIncrDecr 2.5s linear alternate infinite;
+}
+
+#sec {
+    transform-origin: left;
+    width: 9px;
+    animation: wIncrDecr6 2.5s linear alternate infinite;
+
+}
+
+#third {
+    transform-origin: left;
+    width: 18px;
+    animation: wIncrDecr 2.5s linear alternate infinite;
+}
+
+@keyframes wIncrDecr6 {
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0.6);
+
+    }
+}
+
+@keyframes wIncrDecr {
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0.5);
+    }
+}
+
+/* sm screen 640px */
+@media screen and (min-width:640px) {
+    #first {
+        width: 44px
+    }
+
+    #sec {
+        width: 22px
+    }
+
+    #third {
+        width: 44px;
+    }
+}
+
+/* md screen 768px*/
+@media screen and (min-width:768px) {
+    #first {
+        width: 52px
+    }
+
+    #sec {
+        width: 26px
+    }
+
+    #third {
+        width: 52px;
+    }
+}
+
+/* lg screen 1024px*/
+@media screen and (min-width:1024px) {
+    #first {
+        width: 36px
+    }
+
+    #sec {
+        width: 18px
+    }
+
+    #third {
+        width: 36px;
+    }
+}
+
+/* xl screen 1280px*/
+@media screen and (min-width:1280px) {
+    #first {
+        width: 44px
+    }
+
+    #sec {
+        width: 22px
+    }
+
+    #third {
+        width: 44px;
+    }
+}
+
+/* 2xl screen 1536px*/
+@media screen and (min-width:1536px) {
+    #first {
+        width: 72px
+    }
+
+    #sec {
+        width: 36px
+    }
+
+    #third {
+        width: 72px;
+    }
+}
+
+
+
+@media screen and (max-width:300px) {
+    #navline {
+        margin-top: 2.5px;
+    }
+
+    #first,
+    #sec,
+    #third {
+        padding-top: 1.3px;
+        padding-bottom: 1.3px;
+    }
+
+    #rockstar {
+        font-size: 11px
+    }
+
+    #mainText {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:240px) and (max-height:320px) and (orientation: portrait) {
+    #character {
+        max-height: 65%;
+    }
+
+    #first,
+    #third,
+    #sec {
+        padding: 1.2px 0;
+    }
+}
+
+@media screen and (max-width:320px) and (max-height:240px) and (orientation: landscape) {
+    #rockstar {
+        font-size: 14px;
+    }
+
+    #navline {
+        margin-top: 7px;
+    }
+
+    #first,
+    #sec,
+    #third {
+        padding: 1.2px 0;
+    }
+}
