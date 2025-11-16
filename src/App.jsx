@@ -57,7 +57,7 @@ function App() {
     gsap.fromTo(elem2,
       { rotate: '-8deg', scale: 4.75 }, { rotate: 0, scale: 1.2, duration: 2, delay: -1.2, ease: 'expo.easeInOut' }
     )
-    gsap.to(elem3, { scale: 1.4, bottom: '-13%', translateX: '-50%', duration: 2, delay: -0.9, ease: 'power4.easeInOut' }
+    gsap.to(elem3, { scale: 1.4, bottom: '-13%', translateX: '-50%', duration: 1.9, delay: -0.9, ease: 'power4.out' }
     )
     gsap.fromTo(mainText, { rotate: '25deg', scale: 1.2 }, { scale: 1, rotate: 0, duration: 1.5, ease: 'power4.easeInOut' }
     )
