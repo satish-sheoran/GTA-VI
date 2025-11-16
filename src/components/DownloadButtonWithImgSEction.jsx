@@ -40,7 +40,7 @@ const DownloadButtonWithImgSEction = () => {
         <div ref={sectionRef}
             className='overflow-hidden gap-5 w-full px-[2vw] flex flex-col items-center lg:flex-row lg:gap-0 lg:items-start lg:justify-between py-10 '>
 
-            <img className='w-[65%] h-fit object-cover sm:w-[55%] md:w-[65%] lg:w-[35%] xl:w-[37%] 2xl:w-[28%]' src="../src/assets/sittingGirl.png" alt="" />
+            <img className='w-[65%] h-fit object-cover sm:w-[55%] md:w-[65%] lg:w-[35%] xl:w-[37%] 2xl:w-[28%]' src="/sittingGirl.png" alt="" />
 
             <div className='w-full px-[4vw] flex flex-col items-center gap-4  pt-0 pb-2 md:pb-0 lg:pt-15 lg:max-w-1/2 lg:text-left lg:px-0'>
 
@@ -58,3 +58,4 @@ const DownloadButtonWithImgSEction = () => {
 }
 
 export default DownloadButtonWithImgSEction
+
